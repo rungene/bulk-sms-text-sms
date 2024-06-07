@@ -47,6 +47,7 @@ message = "Welcome to Topp"
 # Send SMS
 send_sms(phone_numbers, message)
 
+```
 # Functionality
   - Retrieves only Kenyan Phone phone numbers (from CSV).
   - Assuming phone numbers are in the fourth column (index 3)
@@ -57,7 +58,7 @@ send_sms(phone_numbers, message)
 
 # Additional Resources
 
-- Africa's Talking Documentation: https://textsms.co.ke/bulk-sms-api/
+- TextSMS Documentation: https://textsms.co.ke/bulk-sms-api/
 
 **License**
 
